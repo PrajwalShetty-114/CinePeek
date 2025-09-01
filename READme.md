@@ -63,6 +63,14 @@ This project is organized as follows:
 ---
 ## 🖼️ Screenshots
 
+<img width="188" height="95" alt="Screenshot 2025-09-01 233047" src="https://github.com/user-attachments/assets/6526482a-697e-4fa9-82f9-7b19b5e8e68d" />
+
+<img width="191" height="97" alt="Screenshot 2025-09-01 233114" src="https://github.com/user-attachments/assets/04875f03-b237-48e4-abbf-f777f3c4ac74" />
+
+<img width="191" height="99" alt="Screenshot 2025-09-01 233129" src="https://github.com/user-attachments/assets/9d9aac8f-a642-414c-883b-ed81ef614def" />
+
+<img width="188" height="95" alt="Screenshot 2025-09-01 233202" src="https://github.com/user-attachments/assets/2033009d-18e1-449e-abd2-0e0f6ff0cd73" />
+
 ---
 
 ## Credits
@@ -78,4 +86,5 @@ Built as part of The Complete Full-Stack Web Development Bootcamp (Udemy).
 ---
 
 This project is for educational purposes only and not for commercial use.
+
 
