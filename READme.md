@@ -24,18 +24,27 @@ CinePeek is a movie and TV show discovery web app built as a **capstone project*
 
 ---
 
-## 📂 Project Structure
-├── public/ # CSS, videos, assets
-├── views/ # EJS templates (index, discover, randomPick, watchList)
-├── index.js # Express server
-├── Movies.json # Local movie dataset (backup)
-├── TvShows.json # Local TV show dataset (backup)
-├── watchList.json # Stores user’s watchlist
-├── .env # API keys (ignored in Git)
-├── .env.example # Example environment variables
-├── package.json
-└── README.md
+### 📁 Project Structure
 
+This project is organized as follows:
+
+-   **`public/`**
+    -   `CSS/` - Stylesheets for the application.
+    -   `videos/` - Video assets.
+    -   `assets/` - Other miscellaneous assets.
+-   **`views/`** - EJS templates for the user interface.
+    -   `index.ejs`
+    -   `discover.ejs`
+    -   `randomPick.ejs`
+    -   `watchList.ejs`
+-   **`index.js`** - The main Express server file.
+-   **`Movies.json`** - A local backup of movie data.
+-   **`TvShows.json`** - A local backup of TV show data.
+-   **`watchList.json`** - Stores the user's saved watchlist.
+-   **`.env`** - API keys and sensitive environment variables (ignored by Git).
+-   **`.env.example`** - An example file showing the required environment variables.
+-   **`package.json`** - Lists project dependencies and scripts.
+-   **`README.md`** - The main project documentation file.
 
 ---
 
@@ -69,3 +78,4 @@ Built as part of The Complete Full-Stack Web Development Bootcamp (Udemy).
 ---
 
 This project is for educational purposes only and not for commercial use.
+
