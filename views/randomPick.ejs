@@ -85,7 +85,7 @@
                             let value = this.getAttribute('data-index');
                             watchList.push(value);
 
-                            fetch("http://localhost:3000/send", {
+                            fetch("/send", {
                                 method: "post",
                                 headers: { "content-type": "application/json" },
                                 body: JSON.stringify({
@@ -99,5 +99,6 @@
                 </script>
 
 </body>
+
 
 </html>
