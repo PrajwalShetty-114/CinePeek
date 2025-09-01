@@ -1,0 +1,435 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/s94NjfKkcSczZ1FembwmQZwsuwY.jpg",
+      "id": 617126,
+      "title": "The Fantastic Four: First Steps",
+      "original_title": "The Fantastic Four: First Steps",
+      "overview": "Against the vibrant backdrop of a 1960s-inspired, retro-futuristic world, Marvel's First Family is forced to balance their roles as heroes with the strength of their family bond, while defending Earth from a ravenous space god called Galactus and his enigmatic Herald, Silver Surfer.",
+      "poster_path": "/x26MtUlwtWD26d0G0FXcppxCJio.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        878,
+        12
+      ],
+      "popularity": 194.6445,
+      "release_date": "2025-07-23",
+      "video": false,
+      "vote_average": 7.087,
+      "vote_count": 150
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/7Zx3wDG5bBtcfk8lcnCWDOLM4Y4.jpg",
+      "id": 552524,
+      "title": "Lilo & Stitch",
+      "original_title": "Lilo & Stitch",
+      "overview": "The wildly funny and touching story of a lonely Hawaiian girl and the fugitive alien who helps to mend her broken family.",
+      "poster_path": "/c32TsWLES7kL1uy6fF03V67AIYX.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        10751,
+        878,
+        35,
+        12
+      ],
+      "popularity": 560.7645,
+      "release_date": "2025-05-17",
+      "video": false,
+      "vote_average": 7.279,
+      "vote_count": 1010
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/24tNHi5UJHATn61FTo9QiyQzbMH.jpg",
+      "id": 90802,
+      "name": "The Sandman",
+      "original_name": "The Sandman",
+      "overview": "After years of imprisonment, Morpheus — the King of Dreams — embarks on a journey across worlds to find what was stolen from him and restore his power.",
+      "poster_path": "/dhbqyYjLfTNAHodDDjDELzwO6F4.jpg",
+      "media_type": "tv",
+      "original_language": "en",
+      "genre_ids": [
+        10765,
+        18,
+        10759
+      ],
+      "popularity": 73.3076,
+      "first_air_date": "2022-08-05",
+      "vote_average": 7.931,
+      "vote_count": 2257,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/41neXsH222hV2zrsTyw8h7javon.jpg",
+      "id": 2190,
+      "name": "South Park",
+      "original_name": "South Park",
+      "overview": "Follows the misadventures of four irreverent grade-schoolers in the quiet, dysfunctional town of South Park, Colorado.",
+      "poster_path": "/xJnbMTrJ2fl1AXAKx34U4BPvOhs.jpg",
+      "media_type": "tv",
+      "original_language": "en",
+      "genre_ids": [
+        16,
+        35
+      ],
+      "popularity": 153.4641,
+      "first_air_date": "1997-08-13",
+      "vote_average": 8.368,
+      "vote_count": 4574,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/vapoYt08nte9AnFPSGADNau8C6I.jpg",
+      "id": 156390,
+      "name": "Washington Black",
+      "original_name": "Washington Black",
+      "overview": "11-year-old George Washington \"Wash\" Black embarks on a globe-trotting journey of identity after fleeing a Barbados sugar plantation aboard a flying machine in the company of his master’s eccentric inventor brother.",
+      "poster_path": "/oJfZI4pXQQBQutHT15y0evJNGZv.jpg",
+      "media_type": "tv",
+      "original_language": "en",
+      "genre_ids": [
+        18
+      ],
+      "popularity": 40.7281,
+      "first_air_date": "2025-07-23",
+      "vote_average": 4.8,
+      "vote_count": 14,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/lqwwGkwJHtz9QgKtz4zeY19YgDg.jpg",
+      "id": 1136867,
+      "title": "Materialists",
+      "original_title": "Materialists",
+      "overview": "A young, ambitious New York City matchmaker finds herself torn between the perfect match and her imperfect ex.",
+      "poster_path": "/eDo0pNruy0Qgj6BdTyHIR4cxHY8.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "popularity": 117.3064,
+      "release_date": "2025-06-12",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 140
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/lCKRTbMKlXlwSydZpIqPu6hP0n0.jpg",
+      "id": 1285728,
+      "title": "A Normal Woman",
+      "original_title": "A Normal Woman",
+      "overview": "When an unidentified disease starts to upend her life, a socialite must unravel the mystery behind it — before her whole sense of self falls apart.",
+      "poster_path": "/p8QqvttODrPYdJLjAUvcUsJtDTD.jpg",
+      "media_type": "movie",
+      "original_language": "id",
+      "genre_ids": [
+        18,
+        53,
+        27
+      ],
+      "popularity": 2.4801,
+      "release_date": "2025-07-23",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ApRxyHFuvv5yghedxXPJSm9FEDe.jpg",
+      "id": 1061474,
+      "title": "Superman",
+      "original_title": "Superman",
+      "overview": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent.",
+      "poster_path": "/ombsmhYUqR4qqOLOxAyr5V8hbyv.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        878,
+        12,
+        28
+      ],
+      "popularity": 354.5509,
+      "release_date": "2025-07-09",
+      "video": false,
+      "vote_average": 7.448,
+      "vote_count": 1111
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/1RgPyOhN4DRs225BGTlHJqCudII.jpg",
+      "id": 1311031,
+      "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+      "original_title": "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来",
+      "overview": "As the Demon Slayer Corps members and Hashira engaged in a group strength training program, the Hashira Training, in preparation for the forthcoming battle against the demons, Muzan Kibutsuji appears at the Ubuyashiki Mansion. With the head of the Demon Corps in danger, Tanjiro and the Hashira rush to the headquarters but are plunged into a deep descent to a mysterious space by the hands of Muzan Kibutsuji.  The destination of where Tanjiro and Demon Slayer Corps have fallen is the demons' stronghold – the Infinity Castle. And so, the battleground is set as the final battle between the Demon Slayer Corps and the demons ignites.",
+      "poster_path": "/aFRDH3P7TX61FVGpaLhKr6QiOC1.jpg",
+      "media_type": "movie",
+      "original_language": "ja",
+      "genre_ids": [
+        16,
+        28,
+        14,
+        53
+      ],
+      "popularity": 474.4508,
+      "release_date": "2025-07-18",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 18
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4NI6e5SjIRn7Gt5P361MAIDiGpi.jpg",
+      "id": 1285965,
+      "title": "Dangerous Animals",
+      "original_title": "Dangerous Animals",
+      "overview": "A savvy and free-spirited surfer is abducted by a shark-obsessed serial killer. Held captive on his boat, she must figure out how to escape before he carries out a ritualistic feeding to the sharks below.",
+      "poster_path": "/9tk3Si960hg4E49eMt81dS7Qe9Z.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        27,
+        53
+      ],
+      "popularity": 45.0578,
+      "release_date": "2025-06-05",
+      "video": false,
+      "vote_average": 6.872,
+      "vote_count": 39
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/7HqLLVjdjhXS0Qoz1SgZofhkIpE.jpg",
+      "id": 1087192,
+      "title": "How to Train Your Dragon",
+      "original_title": "How to Train Your Dragon",
+      "overview": "On the rugged isle of Berk, where Vikings and dragons have been bitter enemies for generations, Hiccup stands apart, defying centuries of tradition when he befriends Toothless, a feared Night Fury dragon. Their unlikely bond reveals the true nature of dragons, challenging the very foundations of Viking society.",
+      "poster_path": "/41dfWUWtg1kUZcJYe6Zk6ewxzMu.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        14,
+        10751,
+        28
+      ],
+      "popularity": 976.0125,
+      "release_date": "2025-06-06",
+      "video": false,
+      "vote_average": 8.095,
+      "vote_count": 1176
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/vRYwjPKxSknKh5vh9aYyiz1i7My.jpg",
+      "id": 278006,
+      "name": "Letters from the Past",
+      "original_name": "Geleceğe Mektuplar",
+      "overview": "When a young woman discovers a long-buried secret about her past, she must trace back a collection of letters to their writers to uncover the truth.",
+      "poster_path": "/wjAAlin6gtMtpzpv6kT7dfknWoc.jpg",
+      "media_type": "tv",
+      "original_language": "tr",
+      "genre_ids": [
+        18
+      ],
+      "popularity": 21.5183,
+      "first_air_date": "2025-07-23",
+      "vote_average": 2,
+      "vote_count": 1,
+      "origin_country": [
+        "TR"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qwK9soQmmJ7kRdjLZVXblw3g7AQ.jpg",
+      "id": 7451,
+      "title": "xXx",
+      "original_title": "xXx",
+      "overview": "Xander Cage is your standard adrenaline junkie with no fear and a lousy attitude. When the US Government \"recruits\" him to go on a mission, he's not exactly thrilled. His mission: to gather information on an organization that may just be planning the destruction of the world, led by the nihilistic Yorgi.",
+      "poster_path": "/xeEw3eLeSFmJgXZzmF2Efww0q3s.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        28,
+        12,
+        53,
+        80
+      ],
+      "popularity": 131.095,
+      "release_date": "2002-08-09",
+      "video": false,
+      "vote_average": 5.951,
+      "vote_count": 4479
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg",
+      "id": 986056,
+      "title": "Thunderbolts*",
+      "original_title": "Thunderbolts*",
+      "overview": "After finding themselves ensnared in a death trap, seven disillusioned castoffs must embark on a dangerous mission that will force them to confront the darkest corners of their pasts.",
+      "poster_path": "/hqcexYHbiTBfDIdDWxrxPtVndBX.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        28,
+        878,
+        12
+      ],
+      "popularity": 202.2614,
+      "release_date": "2025-04-30",
+      "video": false,
+      "vote_average": 7.417,
+      "vote_count": 1961
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/oGsh97JAA6LYu92B6TEswrjac8W.jpg",
+      "id": 248852,
+      "name": "UNTAMED",
+      "original_name": "UNTAMED",
+      "overview": "In the vast expanse of Yosemite National Park, a woman's death draws a federal agent into lawless terrain — where nature obeys no rules but its own.",
+      "poster_path": "/tclYY8RGieQwkJXDxZGf505Zybr.jpg",
+      "media_type": "tv",
+      "original_language": "en",
+      "genre_ids": [
+        9648,
+        18
+      ],
+      "popularity": 189.4464,
+      "first_air_date": "2025-07-17",
+      "vote_average": 7.4,
+      "vote_count": 91,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/2meX1nMdScFOoV4370rqHWKmXhY.jpg",
+      "id": 93405,
+      "name": "Squid Game",
+      "original_name": "오징어 게임",
+      "overview": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits — with deadly high stakes.",
+      "poster_path": "/onV0JoOJeiUHG1rfpB2lFTVw1vN.jpg",
+      "media_type": "tv",
+      "original_language": "ko",
+      "genre_ids": [
+        10759,
+        9648,
+        18
+      ],
+      "popularity": 433.201,
+      "first_air_date": "2021-09-17",
+      "vote_average": 7.865,
+      "vote_count": 16429,
+      "origin_country": [
+        "KR"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/vnSsAW0wqgbvrEDX07PBkgnQjkz.jpg",
+      "id": 281512,
+      "name": "My Melody & Kuromi",
+      "original_name": "My Melody & Kuromi",
+      "overview": "When My Melody's visit to the Cloud Kingdom leads to a whirlwind of trouble, can she, Kuromi and their friends save their home before it's too late?",
+      "poster_path": "/z4zIZWFkN8E7nxNlf0P6Pp9gSD3.jpg",
+      "media_type": "tv",
+      "original_language": "ja",
+      "genre_ids": [
+        16,
+        10765
+      ],
+      "popularity": 5.7225,
+      "first_air_date": "2025-07-24",
+      "vote_average": 9,
+      "vote_count": 2,
+      "origin_country": [
+        "JP"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/627K48naKH2Y3Rz47Ydra4qktdI.jpg",
+      "id": 103516,
+      "name": "Star Trek: Strange New Worlds",
+      "original_name": "Star Trek: Strange New Worlds",
+      "overview": "Follow Captain Christopher Pike, Science Officer Spock and Number One in the years before Captain Kirk boarded the U.S.S. Enterprise, as they explore new worlds around the galaxy.",
+      "poster_path": "/w6KapI2JvrCkOPmQhkwYPJNjqeo.jpg",
+      "media_type": "tv",
+      "original_language": "en",
+      "genre_ids": [
+        10765
+      ],
+      "popularity": 86.8467,
+      "first_air_date": "2022-05-05",
+      "vote_average": 8.078,
+      "vote_count": 628,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/lgPt3C0sof0G7SXaX9dDUkYNVAj.jpg",
+      "id": 1319951,
+      "title": "40 Acres",
+      "original_title": "40 Acres",
+      "overview": "Hailey Freeman and her family are the last descendants of African American farmers who settled in rural Canada after the Civil War. In a famine-decimated near future, they now struggle to safeguard their farm, as they make one last stand against a vicious militia hell-bent on taking their 40 Acres.",
+      "poster_path": "/rAYkyMUPouCnzguUpKCiw3fa5ar.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        28,
+        53,
+        18,
+        878
+      ],
+      "popularity": 21.6341,
+      "release_date": "2025-07-02",
+      "video": false,
+      "vote_average": 5.333,
+      "vote_count": 15
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cEQMqB3ahd4mfeUN6VGC0ouVnZZ.jpg",
+      "id": 1071585,
+      "title": "M3GAN 2.0",
+      "original_title": "M3GAN 2.0",
+      "overview": "After the underlying tech for M3GAN is stolen and misused by a powerful defense contractor to create a military-grade weapon known as Amelia, M3GAN's creator Gemma realizes that the only option is to resurrect M3GAN and give her a few upgrades, making her faster, stronger, and more lethal.",
+      "poster_path": "/4a63rQqIDTrYNdcnTXdPsQyxVLo.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        28,
+        878,
+        53
+      ],
+      "popularity": 697.3743,
+      "release_date": "2025-06-25",
+      "video": false,
+      "vote_average": 7.699,
+      "vote_count": 452
+    }
+  ],
+  "total_pages": 500,
+  "total_results": 10000
+}

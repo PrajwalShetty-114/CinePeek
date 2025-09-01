@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="watchList.css">
+</head>
+
+<body>
+
+
+    <% function getGenreNameById(id) { let genreName; switch (id) { case 28: genreName="Action" ; break; case 12:
+        genreName="Adventure" ; break; case 16: genreName="Animation" ; break; case 35: genreName="Comedy" ; break; case
+        80: genreName="Crime" ; break; case 99: genreName="Documentary" ; break; case 18: genreName="Drama" ; break;
+        case 10751: genreName="Family" ; break; case 14: genreName="Fantasy" ; break; case 36: genreName="History" ;
+        break; case 27: genreName="Horror" ; break; case 10402: genreName="Music" ; break; case 9648:
+        genreName="Mystery" ; break; case 10749: genreName="Romance" ; break; case 878: genreName="Science Fiction" ;
+        break; case 10770: genreName="TV Movie" ; break; case 53: genreName="Thriller" ; break; case 10752:
+        genreName="War" ; break; case 37: genreName="Western" ; break; case 10759: genreName="Action&Adventure" ; break;
+        case 10762: genreName="Kids" ; break; case 10763: genreName="News" ; break; case 10764: genreName="Reality" ;
+        break; case 10765: genreName="Sci-Fi&Fantasy" ; break; case 10766: genreName="Soap" ; break; case 10767:
+        genreName="Talk" ; break; case 10768: genreName="War&Politics" ; break; default: console.log("Invalid GenreID:",
+        id); genreName="Unknown" ; break;} return genreName;} %>
+
+        <header>
+            <h1>My Watchlist</h1>
+            <nav>
+                <ul> <li><a id="home" href="/">
+
+                            🏠
+
+                        </a></li></ul>
+            </nav>
+        </header>
+        <div class="container">
+            <% for(let index=0; index<WatchList.length; index++) { %>
+                <div class="card">
+                    <div class="image">
+                        <img src="<%= image+WatchList[index].poster_path%>" alt="Image of the respected Movie">
+                    </div>
+                    <div class="cardContents">
+                        <h2>
+                            <%= (WatchList[index].title||WatchList[index].name) %>
+                        </h2>
+                        <span class="ratings">⭐ <%= WatchList[index].vote_average %></span>
+                        <div class="contentDetails">
+                            <div class="details">
+                                <span>
+                                    <%= WatchList[index].release_date %>
+                                </span>
+                                <% for(innerIndex=0; innerIndex<WatchList[index].genre_ids.length; innerIndex++) {%>
+                                    <% let genres=WatchList[index].genre_ids %>
+                                        <span class="genres">
+                                            <%= getGenreNameById(genres[innerIndex]) %>
+                                        </span>
+                                        <% } %>
+                            </div>
+                            <button data-index="<%= WatchList[index].id %>">Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <% } %>
+        </div>
+        <script>
+            const Button = document.querySelectorAll("button");
+            let removedList = [];
+            for (let index = 0; index < Button.length; index++) {
+                Button[index].addEventListener("click", function () {
+                    let value = this.getAttribute('data-index');
+                    removedList.push(value);
+                    fetch("http://localhost:3000/remove", {
+                        method: "post",
+                        headers: { "content-type": "application/json" },
+                        body: JSON.stringify({
+                            selectedIds: removedList
+                        })
+                    });
+                    alert(`Removed Successfully`);
+                });
+            }
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" -->
+    <!-- integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="discover.css">
+</head>
+
+<body>
+    <% function getGenreNameById(id) { let genreName; switch (id) { case 28: genreName="Action" ; break; case 12:
+        genreName="Adventure" ; break; case 16: genreName="Animation" ; break; case 35: genreName="Comedy" ; break; case
+        80: genreName="Crime" ; break; case 99: genreName="Documentary" ; break; case 18: genreName="Drama" ; break;
+        case 10751: genreName="Family" ; break; case 14: genreName="Fantasy" ; break; case 36: genreName="History" ;
+        break; case 27: genreName="Horror" ; break; case 10402: genreName="Music" ; break; case 9648:
+        genreName="Mystery" ; break; case 10749: genreName="Romance" ; break; case 878: genreName="Science Fiction" ;
+        break; case 10770: genreName="TV Movie" ; break; case 53: genreName="Thriller" ; break; case 10752:
+        genreName="War" ; break; case 37: genreName="Western" ; break; case 10759: genreName="Action&Adventure" ; break;
+        case 10762: genreName="Kids" ; break; case 10763: genreName="News" ; break; case 10764: genreName="Reality" ;
+        break; case 10765: genreName="Sci-Fi&Fantasy" ; break; case 10766: genreName="Soap" ; break; case 10767:
+        genreName="Talk" ; break; case 10768: genreName="War&Politics" ; break; default: console.log("Invalid GenreID:",
+        id); genreName="Unknown" ;break; } return genreName; } %>
+
+<header>
+        <h2 class="heading">Your choice</h2>
+        <nav>
+                <ul class="nav-list">
+                    <li><a id="home" href="/">
+
+                            🏠
+
+                        </a></li>
+                    <li><a id="watchlist" href="/watchList">
+
+                            🔖
+
+                        </a></li>
+                </ul>
+        </nav>
+    </header>
+        <div class="card">
+            <% for (let index=0; index < Items.length; index++) {%>
+                <div class="template" style="background-image: url(<%=image+Items[index].backdrop_path%>);">
+                    <div class="content">
+                        <% let element=Items[index] %>
+                            <p class="title">
+                                <%=(element.title||element.name) %>
+                            </p>
+                            <div class="genreContainer">
+                                <% let genres=Items[index].genre_ids %>
+                                    <% for(let innerIndex=0; innerIndex < genres.length; innerIndex++) {%>
+                                        <% let genreId=genres[innerIndex] %>
+                                            <span class="genres">
+                                                <%= getGenreNameById(genreId) %>
+                                            </span>
+                                            <% } %>
+                                                <button data-index="<%= element.id %>"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                        fill="none" stroke="currentColor" stroke-width="2"
+                                                        stroke-linecap="round" stroke-linejoin="round">
+                                                        <path d="M6 3h12a1 1 0 0 1 1 1v16l-7-4-7 4V4a1 1 0 0 1 1-1z" />
+                                                    </svg>
+                                                </button>
+                            </div>
+                    </div>
+                </div>
+                <% } %>
+        </div>
+
+        <h2 class="heading">Random Pics for You</h2>
+        <div class="randomMovieContainer">
+            <% for (let index=0; index < RandomMovie.length; index++) {%>
+                <div class="template" style="background-image: url(<%=image+RandomMovie[index].backdrop_path%>);">
+                    <div class="content">
+                        <% let element=RandomMovie[index] %>
+                            <% if(element) {%>
+                                <p class="title">
+                                    <%=(element.title ? element.title : element.name) %>
+                                </p>
+                                <% } %>
+                                    <div class="genreContainer">
+                                        <% let genres=RandomMovie[index].genre_ids %>
+                                            <% for(let innerIndex=0; innerIndex < genres.length; innerIndex++) {%>
+                                                <% let genreId=genres[innerIndex] %>
+                                                    <span class="genres">
+                                                        <%= getGenreNameById(genreId) %>
+                                                    </span>
+                                                    <% } %>
+                                                        <button data-index="<%= element.id %>"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="20"
+                                                                height="20" fill="none" stroke="currentColor"
+                                                                stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round">
+                                                                <path
+                                                                    d="M6 3h12a1 1 0 0 1 1 1v16l-7-4-7 4V4a1 1 0 0 1 1-1z" />
+                                                            </svg>
+
+                                                        </button>
+                                    </div>
+
+                    </div>
+                </div>
+                <% } %>
+        </div>
+
+
+
+        <script>
+            const Button = document.querySelectorAll("button");
+            let watchList = [];
+            for (let index = 0; index < Button.length; index++) {
+                Button[index].addEventListener("click", function () {
+                    let value = this.getAttribute('data-index');
+                    watchList.push(value);
+                    this.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+  <path d="M6 2h12a2 2 0 0 1 2 2v18l-8-4-8 4V4a2 2 0 0 1 2-2z"/>
+</svg>`;
+                    fetch("http://localhost:3000/send", {
+                        method: "post",
+                        headers: { "content-type": "application/json" },
+                        body: JSON.stringify({
+                            selectedIds: watchList
+                        })
+                    });
+                    alert(`Saved to Watchlist!`);
+                });
+            }
+
+
+
+        </script>
+</body>
+
+</html>
